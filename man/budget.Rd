@@ -4,15 +4,12 @@
 \alias{budget}
 \title{Calorie budget}
 \usage{
-budget(wt_delta_per_week, bmr, weekends = FALSE)
+budget(wt_delta_per_week, bmr)
 }
 \arguments{
 \item{wt_delta_per_week}{expected change in weight per week}
 
 \item{bmr}{Basal Metabolic Rate, in kilocalories}
-
-\item{weekends}{if \code{TRUE}, weekends are given a higher budget in
-detriment of weekdays}
 }
 \value{
 Calorie targets per day
@@ -22,7 +19,7 @@ Calculates a calorie budget
 }
 \examples{
 BMR <- bmr(66, 40, .12, 178, method = "kma")
-budget(0, BMR, TRUE) # for weight maintenance with a weekend bonus
+budget(0, BMR) # for weight maintenance with a weekend bonus
 budget(.25, BMR) # for a slight weight gain
 }
 \references{
