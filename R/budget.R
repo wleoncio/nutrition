@@ -12,7 +12,9 @@
 #' budget(0, BMR) # for weight maintenance with a weekend bonus
 #' budget(.25, BMR) # for a slight weight gain
 budget <- function(wt_delta_per_week, bmr) {
-	budget_delta_per_week <- wt_delta_per_week / .4535924 * 3500
+  lbs_to_kg <- .4535924
+  kcal_1_lbs_fat <- 3500
+	budget_delta_per_week <- wt_delta_per_week / lbs_to_kg * kcal_1_lbs_fat
 	budget_delta_per_day <- budget_delta_per_week / 7
 	daily_budget <- c("kcal per day" = bmr + budget_delta_per_day)
   daily_budget_weekend <- c(
