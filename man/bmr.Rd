@@ -4,7 +4,7 @@
 \alias{bmr}
 \title{Basal Metabolic Rate}
 \usage{
-bmr(weight, age, fat, height, activity = 1.45, method = "msj")
+bmr(weight, age, fat, height, activity = 1.45, method = "msj", gender = "male")
 }
 \arguments{
 \item{weight}{weight, in kilograms}
@@ -19,6 +19,8 @@ bmr(weight, age, fat, height, activity = 1.45, method = "msj")
 
 \item{method}{calculation method ("msj" for Mifflin-St. Jeor or "kma" for
 Katch-McArdle)}
+
+\item{gender}{"male" or "female"}
 }
 \value{
 The Basal Metabolic Rate, in kilocalories
