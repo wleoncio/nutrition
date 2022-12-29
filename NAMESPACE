@@ -2,3 +2,4 @@
 
 export(bmr)
 export(budget)
+export(totalKcal)
