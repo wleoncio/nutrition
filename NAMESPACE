@@ -2,4 +2,5 @@
 
 export(bmr)
 export(budget)
+export(fiberGrams)
 export(totalKcal)
