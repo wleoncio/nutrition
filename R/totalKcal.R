@@ -11,5 +11,10 @@
 #' @examples
 #' totalKcal(48, 1.7, 29)
 totalKcal <- function(fat, carbs, protein, fiber = 0) {
-  return(9 * fat + 4 * carbs + 4 * protein + 2 * fiber)
+  return(
+    kcal_1g_fat * fat +
+    kcal_1g_carbs * carbs +
+    kcal_1g_protein * protein +
+    kcal_1g_fiber * fiber
+  )
 }
