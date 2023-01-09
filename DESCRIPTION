@@ -8,6 +8,9 @@ Authors@R:
     )
 Description: Contains a collection of functions for performing different kinds
     of calculation that are of interest to someone following a diet plan.
+    Calculators for the Basal Metabolic Rate are based on Mifflin et al. (1990)
+    <doi:10.1093/ajcn/51.2.241> and  McArdle, W. D., Katch, F. I., &
+    Katch, V. L. (2010, ISBN:9780812109917).
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

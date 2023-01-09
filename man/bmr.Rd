@@ -33,6 +33,14 @@ bmr(67, 40, .12, 178) # for an individual with 12\% body fat
 }
 \references{
 https://www.calculator.net/bmr-calculator.html
+
+Mifflin, M. D., St Jeor, S. T., Hill, L. A., Scott, B. J., Daugherty, S. A.,
+& Koh, Y. O. (1990). A new predictive equation for resting energy expenditure
+in healthy individuals. The American journal of clinical nutrition, 51(2),
+241-247.
+
+McArdle, W. D., Katch, F. I., & Katch, V. L. (2010). Exercise physiology:
+nutrition, energy, and human performance. Lippincott Williams & Wilkins.
 }
 \author{
 Waldir Leoncio

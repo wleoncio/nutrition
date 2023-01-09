@@ -10,7 +10,16 @@
 #' @param gender "male" or "female"
 #' @return The Basal Metabolic Rate, in kilocalories
 #' @author Waldir Leoncio
-#' @references https://www.calculator.net/bmr-calculator.html
+#' @references
+#' https://www.calculator.net/bmr-calculator.html
+#'
+#' Mifflin, M. D., St Jeor, S. T., Hill, L. A., Scott, B. J., Daugherty, S. A.,
+#' & Koh, Y. O. (1990). A new predictive equation for resting energy expenditure
+#' in healthy individuals. The American journal of clinical nutrition, 51(2),
+#' 241-247.
+#'
+#' McArdle, W. D., Katch, F. I., & Katch, V. L. (2010). Exercise physiology:
+#' nutrition, energy, and human performance. Lippincott Williams & Wilkins.
 #' @export
 #' @examples bmr(67, 40, .12, 178) # for an individual with 12% body fat
 bmr <- function(weight, age, fat, height, activity = 1.45, method = "msj", gender = "male") {
