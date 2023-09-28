@@ -1,6 +1,6 @@
 Package: nutrition
 Title: Useful Functions for People on a Diet
-Version: 1.0.0.9000
+Version: 1.0.0.9001
 Authors@R:
     person(
         "Waldir", "Leoncio", , "w.l.netto@medisin.uio.no",
